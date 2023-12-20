@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-container {
+    background-image: url("https://t4.ftcdn.net/jpg/02/34/98/73/360_F_234987365_1bwmHyUjVOKIibWEbnwaayE9FQiq2xpu.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
+
+.home-container{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+
+}
+.home-container h1{
+    color: white;
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+}
+
+.paradiv{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.Explore-btn{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
