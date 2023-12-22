@@ -19,10 +19,6 @@ const home = (req, res) => {
 };
 
 const fileUpload = async (req, res, next) => {
-  // const user = await userModel.findOne({ username: req.session.passport.user });
-  // user.profileImage = req.file.filename;
-  // await user.save();
-  // res.redirect("/profile");
   const user = await userModel.findOne({
     username: req.session.passport.user,
 });
@@ -100,18 +96,6 @@ const registerPost = (req, res) => {
   });
 };
 const createpost = async (req, res) => {
-  // const user = await userModel.findOne({
-  //   username: req.session.passport.user,
-  // });
-  // const post = await postModel.create({
-  //   user: user._id,
-  //   title: req.body.title,
-  //   description: req.body.description,
-  //   image: req.file.filename,
-  // });
-  // user.posts.push(post._id);
-  // await user.save();
-  // res.redirect("/profile");
   const user = await userModel.findOne({
     username: req.session.passport.user,
 });
